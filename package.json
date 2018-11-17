@@ -14,8 +14,12 @@
     "helmet": "^3.14.0",
     "joi": "^14.0.2",
     "mongoose": "^5.3.11",
+<<<<<<< HEAD
     "morgan": "^1.9.1",
     "useragent": "^2.3.0"
+=======
+    "morgan": "^1.9.1"
+>>>>>>> 37c37d7e389d9be29276da97ec9f2c1e684c49bf
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

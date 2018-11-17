@@ -1,14 +1,19 @@
 const express = require('express')
+<<<<<<< HEAD
 const Joi = require('joi')
 const router = express.Router()
 const { Link } = require('../models/link')
 const useragent = require('useragent');
 const { Stat } = require('../models/stat')
+=======
+const router = express.Router()
+>>>>>>> 37c37d7e389d9be29276da97ec9f2c1e684c49bf
 
 router.get('/', (req, res) => {
     res.send("Home Page");
 });
 
+<<<<<<< HEAD
 router.get('/:link', (req, res) => {
     const schema = {
         link: Joi.string().min(5).max(6).required()
@@ -52,4 +57,6 @@ router.get('/:link', (req, res) => {
 
 });
 
+=======
+>>>>>>> 37c37d7e389d9be29276da97ec9f2c1e684c49bf
 module.exports = router
