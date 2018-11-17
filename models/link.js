@@ -15,7 +15,8 @@ const Link = mongoose.model('Link', new mongoose.Schema({
     maxlength: 6
   },
   clickCounter: {
-    type: Number
+    type: Number,
+    default: 0
   }
 }))
 
